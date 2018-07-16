@@ -1,0 +1,107 @@
+*{
+    font-family: tahoma;
+    box-sizing: border-box;
+    border-collapse: collapse;
+    margin: 0;
+}
+.header{
+    border-bottom: 2px solid;
+    border-bottom-color: #db2927;
+    width: 100%;
+    font-size: 13px;
+}
+
+.header p{
+    display: inline;
+    float: right;
+    margin-bottom: 0;
+    padding-top: 35px;
+}
+
+.header span{
+    color: #045198;
+}
+
+.content{
+    margin: auto;
+    width: 50%;
+    padding-top: 30px;
+    height: auto;
+}
+
+.content h1{
+    font-size: 18px;
+    color: #2c286d;
+}
+
+form{
+    background-color: #ececec;
+    border: 2px solid;
+    border-color: #bcbcbc;
+    width: 550px;
+    padding: 20px 30px;
+    height: 456px;
+}
+
+label{
+    float: right;
+}
+
+.label{
+    padding-right: 20px;
+    font-size: 14px;
+    color: black;
+    
+}
+
+input{
+    display: inline;
+    float: right;
+    border: 1px solid;
+    border-color: #b9b9b9;
+    width: 360px;
+    height: 25px;
+    margin: 0;
+}
+
+textarea{
+    display: inline;
+    float: right;
+    width: 360px;
+    height: 135px;
+}
+
+.radio{
+    width: 20px;
+    float: none;
+    height: auto;
+}
+
+.rad{
+    display: inline;
+    width: 360px;
+    float: right;
+}
+
+.rad_span{
+    padding-right: 30px;
+    font-size: 13px;
+    color: #6f6f6f;
+}
+
+.button{
+    float: left;
+    background-color: #dc2927;
+    border-color: #a10200;
+    width: 130px;
+    height: 32px;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+}
+
+.btn_container{
+    width: 360px;
+    float: right;
+    padding-top: 10px;
+}
