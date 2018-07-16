@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Form</title>
+        <link rel="stylesheet" type="text/css" href="stylesheet/style.css">
+    </head>
+    <body>
+        <div class="header">
+            <img src="images/vinsol.png">
+            <p>Email us at: <span>sales@vinsol.com</span> &thinsp;&thinsp;&thinsp;&thinsp; Skype: <span>Vinsol</span></p>
+        </div>
+        <div class="content">
+            <h1>Please fill the form below</h1>
+            <form class="form">
+                <label><span class="label">First Name</span> <input type="text" name="First name"></label><br><br>
+                <label><span class="label">Last Name</span><input type="text" name="Last name"></label><br><br>
+                <label><span class="label">Email Address</span><input type="email" name="Email"></label><br><br>
+                <label><span class="label">Password</span><input type="password" name="Password"></label><br><br>
+                <label><span class="label">Gender</span>
+                    <div class="rad"><input class="radio" type="radio" name="Gender" value="Male" checked><span class="rad_span">Male</span>
+                    <input class="radio" type="radio" name="Gender" value="Female"><span class="rad_span">Female</span></div>
+                </label><br><br>
+                <label><span class="label">Date of Birth</span><input type="date"></label><br><br>
+                <label><span class="label">Address</span><textarea name="message"></textarea></label><br><br>
+                <div class="btn_container"><input class="button" type="submit" value="Submit Details"></div>
+            </form>
+        </div>
+    </body>
+</html>
